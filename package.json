@@ -6,13 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.804.0",
     "aws-sdk": "^2.1692.0",
-    "next": "15.3.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "^13.5.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -23,5 +26,13 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/re1-kpatil/todo-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/re1-kpatil/todo-app/issues"
+  },
+  "homepage": "https://github.com/re1-kpatil/todo-app#readme"
 }
